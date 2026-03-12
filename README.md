@@ -41,8 +41,7 @@ The goal of this project is to demonstrate how **traditional backend development
 **Tools**
 
 * Git & GitHub
-* Postman
-* VS Code / IntelliJ
+* Eclipse / VS Code 
 
 ---
 
