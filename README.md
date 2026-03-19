@@ -43,46 +43,6 @@ The goal of this project is to demonstrate how **traditional backend development
 * Git & GitHub
 * Eclipse / VS Code 
 
----
-
-📂 Project Structure
-
-E-Commerce-SpringBoot-App/
-│
-├── src/main/java/com/example/E_commerce/
-│   ├── ECommerceApplication.java
-│   ├── controller/
-│   ├── service/
-│   ├── repository/
-│   ├── entity/
-│   ├── dto/
-│   ├── config/
-│   └── checkout/
-│
-├── src/main/resources/
-│   ├── static/
-│   │   ├── index.html
-│   │   ├── cart.html
-│   │   ├── product.html
-│   │   ├── login.html
-│   │   ├── register.html
-│   │   ├── style.css
-│   │   ├── login.css
-│   │   ├── products.js
-│   │   ├── cart.js
-│   │   ├── register.js
-│   │   ├── recommendation.js
-│   │   └── script.js
-│   │
-│   ├── templates/
-│   └── application.properties
-│
-├── recommendation/   (Recommendation module)
-│
-├── pom.xml
-└── README.md
----
-
 ## ⚙️ How to Run the Project
 
 ### Backend
