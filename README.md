@@ -47,25 +47,50 @@ The goal of this project is to demonstrate how **traditional backend development
 
 ## 📂 Project Structure
 
-```
-ecommerce-ai-recommendation-system
+E-Commerce-SpringBoot-App/
+│── src/
+│   └── main/
+│       ├── java/
+│       │   └── com/example/E_commerce/
+│       │       ├── ECommerceApplication.java   # Main Spring Boot entry point
+│       │       │
+│       │       ├── checkout/                   # Order & checkout logic
+│       │       ├── config/                     # Configuration classes
+│       │       ├── controller/                 # REST Controllers (API endpoints)
+│       │       ├── dto/                        # Data Transfer Objects
+│       │       ├── entity/                     # Database entities
+│       │       ├── repository/                 # JPA repositories
+│       │       └── service/                    # Business logic layer
+│       │
+│       └── resources/
+│           ├── static/                         # Frontend (HTML, CSS, JS)
+│           │   ├── index.html                  # Homepage
+│           │   ├── cart.html                   # Cart page
+│           │   ├── product.html                # Product details
+│           │   ├── login.html                  # Login page
+│           │   ├── register.html               # Register page
+│           │   │
+│           │   ├── style.css                   # Main styling
+│           │   ├── login.css                   # Login styling
+│           │   │
+│           │   ├── products.js                 # Product logic
+│           │   ├── cart.js                     # Cart logic
+│           │   ├── register.js                 # Registration logic
+│           │   ├── recommendation.js           # Frontend recommendation logic
+│           │   └── script.js                   # General scripts
+│           │
+│           ├── templates/                      # (If used)
+│           └── application.properties          # Config file
 │
-├── backend (Spring Boot)
-│   ├── controllers
-│   ├── services
-│   ├── repositories
-│   └── models
+│── recommendation/                             # 🔥 Recommendation Module (VS Code)
+│   ├── model/                                  # ML / data models
+│   ├── service/                                # Recommendation logic
+│   ├── controller/ (if any)                    # API endpoints
+│   └── main file (if separate service)         # Entry point
 │
-├── recommendation-system (Python)
-│   ├── dataset
-│   ├── model
-│   └── recommendation.py
-│
-└── README.md
-```
-
----
-
+├── target/                                     # Compiled files
+├── pom.xml                                     # Dependencies
+└── README.md                                   # Documentation
 ## ⚙️ How to Run the Project
 
 ### Backend
