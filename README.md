@@ -82,6 +82,8 @@ ecommerce-ai-recommendation-system
 
 ---
 
+## 🎥 Demo Video
+https://drive.google.com/file/d/1ZkWuRKwnGIwQyueJxpdHT9vri857yEAR/view?usp=sharing
 
 ## 📊 Future Improvements
 
