@@ -49,6 +49,9 @@ The goal of this project is to demonstrate how **traditional backend development
 * Git & GitHub
 * Eclipse / VS Code 
 
+🎥 Demo Video
+https://drive.google.com/file/d/1ZkWuRKwnGIwQyueJxpdHT9vri857yEAR/view?usp=sharing
+
 ## ⚙️ How to Run the Project
 
 ### Backend
