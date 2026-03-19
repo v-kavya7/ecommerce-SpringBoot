@@ -52,6 +52,53 @@ The goal of this project is to demonstrate how **traditional backend development
 🎥 Demo Video
 https://drive.google.com/file/d/1ZkWuRKwnGIwQyueJxpdHT9vri857yEAR/view?usp=sharing
 
+## 📂 Project Structure
+
+E-Commerce-SpringBoot-App/
+
+├── src/main/java/com/example/E_commerce/
+│   ├── ECommerceApplication.java
+│   ├── controller/
+│   ├── service/
+│   ├── repository/
+│   ├── entity/
+│   ├── dto/
+│   ├── config/
+│   └── checkout/
+│
+├── src/main/resources/
+│   ├── static/
+│   │   ├── index.html
+│   │   ├── cart.html
+│   │   ├── product.html
+│   │   ├── login.html
+│   │   ├── register.html
+│   │   ├── style.css
+│   │   ├── login.css
+│   │   ├── products.js
+│   │   ├── cart.js
+│   │   ├── register.js
+│   │   ├── recommendation.js
+│   │   └── script.js
+│   │
+│   ├── templates/
+│   └── application.properties
+│
+├── recommendation/ (Recommendation module)
+│
+├── pom.xml
+└── README.md
+
+
+## 🧠 Architecture
+
+- Controller → Handles API requests  
+- Service → Business logic  
+- Repository → Database access  
+- Entity / DTO → Data handling  
+- Frontend (static) → UI (HTML, CSS, JS)  
+- Recommendation Module → Product suggestions
+
 ## ⚙️ How to Run the Project
 
 ### Backend
