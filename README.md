@@ -29,6 +29,12 @@ The goal of this project is to demonstrate how **traditional backend development
 * REST APIs
 * Maven
 
+**Frontend**
+
+* HTML
+* CSS
+* Javascript
+  
 **Database**
 
 * MySQL
