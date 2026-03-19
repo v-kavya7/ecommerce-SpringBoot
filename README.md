@@ -81,8 +81,7 @@ ecommerce-ai-recommendation-system
 3. Run the recommendation script
 
 ---
-## 🎥 Demo Video
-(https://drive.google.com/file/d/1hhTNJvOHzv9GRLlxZQABG9P8E2FNfGYy/view)
+
 
 ## 📊 Future Improvements
 
