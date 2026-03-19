@@ -44,10 +44,12 @@ The goal of this project is to demonstrate how **traditional backend development
 * Eclipse / VS Code 
 
 ---
-**Project Structure**
+
+📂 Project Structure
 
 E-Commerce-SpringBoot-App/
-│── src/main/java/com/example/E_commerce/
+│
+├── src/main/java/com/example/E_commerce/
 │   ├── ECommerceApplication.java
 │   ├── controller/
 │   ├── service/
@@ -57,7 +59,7 @@ E-Commerce-SpringBoot-App/
 │   ├── config/
 │   └── checkout/
 │
-│── src/main/resources/
+├── src/main/resources/
 │   ├── static/
 │   │   ├── index.html
 │   │   ├── cart.html
@@ -75,12 +77,11 @@ E-Commerce-SpringBoot-App/
 │   ├── templates/
 │   └── application.properties
 │
-│── recommendation/        # Recommendation module (separate logic)
+├── recommendation/   (Recommendation module)
 │
-│── pom.xml
-│── README.md
-
---
+├── pom.xml
+└── README.md
+---
 
 ## ⚙️ How to Run the Project
 
