@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Product Details</h1>
+</header>
+
+<!-- Product Display -->
+<div id="mainProduct" class="main-product">
+    <img id="mainProductImage" src="" width="250" />
+    <h2 id="productName"></h2>
+    <p id="productPrice"></p>
+</div>
+
+<!-- Recommendations Section -->
+<div id="recommendations"></div>
+
+<!-- Include JS -->
+<script src="recommendation.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    const params = new URLSearchParams(window.location.search);
+    const productName = params.get("name"); // e.g., ?name=Laptop
+    const productPrice = params.get("price");
+    const productImage = params.get("image");
+
+    if (!productName) {
+        document.getElementById("productName").innerText = "Product not found";
+        return;
+    }
+
+    // Show main product
+    document.getElementById("productName").innerText = productName;
+    document.getElementById("productPrice").innerText = productPrice ? `₹${Number(productPrice).toLocaleString("en-IN")}` : "";
+    document.getElementById("mainProductImage").src = productImage || "default.jpg";
+
+    // Fetch and show recommendations
+    getRecommendations(productName);
+});
+</script>
+
+</body>
+</html>

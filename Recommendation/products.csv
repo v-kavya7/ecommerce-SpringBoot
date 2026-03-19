@@ -1,15 +1,31 @@
 id,description,name,price,quantity,image_url
-2,Latest Android smartphone,Smartphone,25000,20,https://www.oppo.com/content/dam/oppo/com
-3,Wireless noise cancelling headphones,Headphones,2000,30,https://m.media-amazon.com/images
-4,Fitness tracking smartwatch,Smartwatch,5000,15,https://www.gizmochina.com/wp-content
-5,Comfortable running shoes,Running Shoes,3000,25,https://levelshoes.co.za/cdn/shop
-6,Stylish travel backpack,Backpack,1500,40,https://rukminim2.flixcart.com/image
-7,Mechanical gaming keyboard,Keyboard,3500,18,https://static0.gamerantimages.com
-8,Wireless optical mouse,Mouse,800,50,https://dlcdnwebimgs.asus.com
-9,10-inch Android tablet,Tablet,18000,12,https://static1.anpoimages.com
-10,Full HD digital camera,Camera,45000,8,https://m.media-amazon.com/images
-11,Galaxy smartwatch,Smartwatch,25000,20,https://www.sammobile.com/wp-content
-12,Wired earphones,Earphones,1000,30,https://media.tatacroma.com
-13,IFB washing machine,Washing Machine,35000,15,https://i.gadgets360cdn.com/products
-14,Samsung refrigerator,Refrigerator,30000,15,https://electronicparadise.in
-15,Comfortable sofa,Sofa,40000,30,https://www.orangetree.in
+1,"High performance gaming laptop",Laptop,60000,10,https://m.media-amazon.com/images/I/71yejFYehdL.jpg
+2,"Latest Android smartphone",Smartphone,25000,20,https://m.media-amazon.com/images/I/41Gx8axBIOL._SY300_SX300_QL70_FMwebp_.jpg
+3,"Wireless noise cancelling headphones",Headphones,2000,30,https://m.media-amazon.com/images/I/61a2y1FCAJL._SL1500_.jpg
+4,"Fitness tracking smartwatch",Smartwatch,5000,15,https://www.gizmochina.com/wp-content/uploads/2023/06/Screenshot-2023-06-23-141415-1024x829.png
+5,"Comfortable running shoes","Running Shoes",3000,25,https://m.media-amazon.com/images/I/619d18a7h9L._SY695_.jpg
+6,"Stylish travel backpack",Backpack,1500,40,https://m.media-amazon.com/images/I/71D1m1UOl8L._SX679_.jpg
+7,"Mechanical gaming keyboard",Keyboard,3500,18,https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/08/razerblackwidowv475percent.jpg
+8,"Wireless optical mouse",Mouse,800,50,https://m.media-amazon.com/images/I/314xDOQqadL._SY300_SX300_QL70_FMwebp_.jpg
+9,"10-inch Android tablet",Tablet,18000,12,https://static1.anpoimages.com/wordpress/wp-content/uploads/2025/04/tab-s10-fe_blue_combo-copy.jpg
+10,"Full HD digital camera",Camera,45000,8,https://m.media-amazon.com/images/I/71JDnICC3nL._AC_.jpg
+11,"galaxy smartwatch",Smartwatch,25000,20,https://www.sammobile.com/wp-content/uploads/2024/07/Galaxy-Watch-7-4.jpg
+12,"Wired earphones",Earphones,1000,30,https://media.tatacroma.com/Croma%20Assets/Communication/Headphones%20and%20Earphones/Images/235975_0_tuzybh.png
+13," IFB Washing machine ","Washing machine",35000,15,https://i.gadgets360cdn.com/products/large/121158-1-800x1126-1693394441.jpg
+14,"samsung refrigerator",Refrigerator,30000,15,https://m.media-amazon.com/images/I/31EmSKdpwYL._SY445_SX342_QL70_FMwebp_.jpg
+15,"Comfortable sofa",sofa,40000,30,https://m.media-amazon.com/images/I/51gWaDT5HTL._SX679_.jpg
+16,"55 inch large samsung tv",Tv,60000,30,https://m.media-amazon.com/images/I/416xyibjbJL._SX300_SY300_QL70_FMwebp_.jpg
+17,"Latest iphone 16 plus",iphone,85000,10,https://m.media-amazon.com/images/I/61evtSm4vDL.jpg
+18,"Beautiful door curtains",curtains,1000,80,https://m.media-amazon.com/images/I/41N6A-UgbUL._SY300_SX300_QL70_FMwebp_.jpg
+19,"Dell desktops & pc's best quality","Dell desktop",140000,15,https://m.media-amazon.com/images/I/814zOtzY58L._SX679_.jpg
+20,"comfortable sofa chair",sofa,30000,25,https://m.media-amazon.com/images/I/41DfFVWwv4L._SY300_SX300_QL70_FMwebp_.jpg
+21,"Wireless keyboard with all latest features",Keyboard,2000,35,https://m.media-amazon.com/images/I/81N2AnA91nL._SX679_.jpg
+22,"A durable, double-walled stainless steel tumbler","Steel Tumbler",900,50,https://m.media-amazon.com/images/I/41pki7b51LL._SX679_.jpg
+23,"Campus Sutra shirts offer trendy, comfortable, and affordable casual wear",Shirt,1500,40,https://m.media-amazon.com/images/I/61yuV-eChOL._SY879_.jpg
+24,"Perfume is a mixture of fragrant essential oils, fixatives, and solvents",Perfume,700,90,https://m.media-amazon.com/images/I/618zz2oqm8L._SX679_.jpg
+25,"Chic Back Bow Tiered Midi Dress In English Blue","Maxi Dress",1500,100,https://m.media-amazon.com/images/I/61ctazYxu4L._SY879_.jpg
+26,"Havells Stealth Air BLDC 1200mm Ceiling Fan",Fan,7000,45,https://m.media-amazon.com/images/I/51YQoQTn-AL._SX679_.jpg
+27,"CASPIAN Engineered Wood Single Door Wooden Vanity Dressing Table (Brown)","Dressing Table",10000,40,https://m.media-amazon.com/images/I/719hgQcyCxL._SX679_.jpg
+28,"The sculptural YSL logo heel stands at roughly 4.3 inches",Heels,10000,10,https://m.media-amazon.com/images/I/51xIaSXBk4L._SY695_.jpg
+29,"Lavie Women's Elissa Colourblock Satchel Handbag for Women ","Hand bag",40000,30,https://m.media-amazon.com/images/I/515VvexNhML._SY695_.jpg
+30,"Fastrack Ruffles Analog Beige Dial Women's Watch",Watch,4000,50,https://m.media-amazon.com/images/I/5159txtY55L._SX679_.jpg
