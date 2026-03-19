@@ -33,6 +33,7 @@ transition:transform 0.2s;
 transform:scale(1.05);
 }
 
+
 .product-card img{
 width:150px;
 height:150px;
@@ -102,6 +103,22 @@ text-align:center;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 20px;
   padding: 20px;
+}
+/*
+.product-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centers everything horizontally
+    } */
+
+.top-bar {
+    padding: 10px 20px;
+}
+
+.cart-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #131921;
 }
 .rec-card {
     display: inline-block;
