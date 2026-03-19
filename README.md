@@ -44,53 +44,44 @@ The goal of this project is to demonstrate how **traditional backend development
 * Eclipse / VS Code 
 
 ---
-
-## 📂 Project Structure
+**Project Structure**
 
 E-Commerce-SpringBoot-App/
-│── src/
-│   └── main/
-│       ├── java/
-│       │   └── com/example/E_commerce/
-│       │       ├── ECommerceApplication.java   # Main Spring Boot entry point
-│       │       │
-│       │       ├── checkout/                   # Order & checkout logic
-│       │       ├── config/                     # Configuration classes
-│       │       ├── controller/                 # REST Controllers (API endpoints)
-│       │       ├── dto/                        # Data Transfer Objects
-│       │       ├── entity/                     # Database entities
-│       │       ├── repository/                 # JPA repositories
-│       │       └── service/                    # Business logic layer
-│       │
-│       └── resources/
-│           ├── static/                         # Frontend (HTML, CSS, JS)
-│           │   ├── index.html                  # Homepage
-│           │   ├── cart.html                   # Cart page
-│           │   ├── product.html                # Product details
-│           │   ├── login.html                  # Login page
-│           │   ├── register.html               # Register page
-│           │   │
-│           │   ├── style.css                   # Main styling
-│           │   ├── login.css                   # Login styling
-│           │   │
-│           │   ├── products.js                 # Product logic
-│           │   ├── cart.js                     # Cart logic
-│           │   ├── register.js                 # Registration logic
-│           │   ├── recommendation.js           # Frontend recommendation logic
-│           │   └── script.js                   # General scripts
-│           │
-│           ├── templates/                      # (If used)
-│           └── application.properties          # Config file
+│── src/main/java/com/example/E_commerce/
+│   ├── ECommerceApplication.java
+│   ├── controller/
+│   ├── service/
+│   ├── repository/
+│   ├── entity/
+│   ├── dto/
+│   ├── config/
+│   └── checkout/
 │
-│── recommendation/                             # 🔥 Recommendation Module (VS Code)
-│   ├── model/                                  # ML / data models
-│   ├── service/                                # Recommendation logic
-│   ├── controller/ (if any)                    # API endpoints
-│   └── main file (if separate service)         # Entry point
+│── src/main/resources/
+│   ├── static/
+│   │   ├── index.html
+│   │   ├── cart.html
+│   │   ├── product.html
+│   │   ├── login.html
+│   │   ├── register.html
+│   │   ├── style.css
+│   │   ├── login.css
+│   │   ├── products.js
+│   │   ├── cart.js
+│   │   ├── register.js
+│   │   ├── recommendation.js
+│   │   └── script.js
+│   │
+│   ├── templates/
+│   └── application.properties
 │
-├── target/                                     # Compiled files
-├── pom.xml                                     # Dependencies
-└── README.md                                   # Documentation
+│── recommendation/        # Recommendation module (separate logic)
+│
+│── pom.xml
+│── README.md
+
+--
+
 ## ⚙️ How to Run the Project
 
 ### Backend
